@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Archivos en el almacenamiento externo privado de la app (getExternalFilesDir()) -->
+    <external-files-path name="my_images" path="Pictures/" />
+    <!-- Archivos en el almacenamiento interno privado de la app (getFilesDir()) -->
+    <files-path name="internal_images" path="images/" />
+    <!-- Archivos en el almacenamiento externo compartido (DCIM, Pictures, etc.) -->
+    <external-path name="external_images" path="DCIM/Camera/" />
+</paths>

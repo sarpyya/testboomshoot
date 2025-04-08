@@ -1,0 +1,49 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example.mycompany</groupId>
+    <artifactId>MyKotlinProject</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>MyKotlinProject</name>
+
+    <properties>
+        <kotlin.version>1.9.24</kotlin.version> <!-- Replace with your Kotlin version -->
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jetbrains.kotlin</groupId>
+            <artifactId>kotlin-stdlib-jdk8</artifactId> <!-- Or the appropriate stdlib -->
+            <version>${kotlin.version}</version>
+        </dependency>
+        <!-- Add any other project dependencies here -->
+    </dependencies>
+
+    <build>
+        <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
+        <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
+        <plugins>
+            <plugin>
+                <groupId>org.jetbrains.kotlin</groupId>
+                <artifactId>kotlin-maven-plugin</artifactId>
+                <version>${kotlin.version}</version>
+                <executions>
+                    <execution>
+                        <id>compile</id>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>test-compile</id>
+                        <goals>
+                            <goal>test-compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

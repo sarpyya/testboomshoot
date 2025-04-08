@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "915143709679",
+    "firebase_url": "https://testshoot-6d9d9-default-rtdb.firebaseio.com",
+    "project_id": "testshoot-6d9d9",
+    "storage_bucket": "testshoot-6d9d9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:915143709679:android:fb2355c79b9abe7e4e9c1a",
+        "android_client_info": {
+          "package_name": "com.example.photosharingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "915143709679-26aca4fdbdgiaasdgo3l06hap3c0qler.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.photosharingapp",
+            "certificate_hash": "acf63786bfa54f23ec7681be822f9405a2585c6f"
+          }
+        },
+        {
+          "client_id": "915143709679-rp5de87v4occucdvdn1da2u2ietid2ci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvOox1EVmeDaBIsez9JXpJwPvS5ZVEY3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "915143709679-rp5de87v4occucdvdn1da2u2ietid2ci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

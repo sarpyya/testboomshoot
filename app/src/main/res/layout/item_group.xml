@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <!-- You can declare variables here if needed, for Data Binding, but not needed for just View Binding -->
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Your views (TextViews, etc.) go here -->
+        <TextView
+            android:id="@+id/tvGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group Name" />  <!-- Added placeholder text -->
+
+        <TextView
+            android:id="@+id/tvGroupType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Group Type" />    <!-- Added placeholder text -->
+
+        <TextView
+            android:id="@+id/tvCreationTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Creation Time" />
+    </LinearLayout>
+</layout>
